@@ -223,10 +223,16 @@ public class Base {
       driver.switchTo().defaultContent();
    }
 
+
    //get Links
    public void getLinks(String locator){
       driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
    }
+   public void byLinks(String locator){
+      driver.findElement(By.linkText(locator)).click();
+   }
+
+
 
    //Taking Screen shots
    public void takeScreenShot()throws IOException {

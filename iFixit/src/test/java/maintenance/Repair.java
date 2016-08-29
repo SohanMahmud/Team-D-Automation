@@ -13,14 +13,15 @@ public class Repair extends Base {
     public void AccountLogin() throws InterruptedException {
 
 
-            clickByXpath(".//*[@id='home-page-top']/div/div[1]/a[2]");
+            //clickByXpath(".//*[@id='home-page-top']/div/div[1]/a[2]");
+        byLinks("Log In");
             typeByCss("#email", "teampnt2016@gmail.com");
             sleepFor(1);
             typeByCss("#password", "automation");
             sleepFor(1);
             clickByCss("#loginBtn");
             sleepFor(3);
-            
+           
 
 
     }
