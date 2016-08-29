@@ -16,6 +16,9 @@ Wednesdat 8/31/16 -- Work on modules; Screenshare meeting at night(?) to discuss
 Thursday 9/1/16 -- Work on modules; Screenshare meetings; Put everything together; put final touches; Submit draft3;
 Friday 9/2/16 -- Put finishing touches on project; Screenshare meeting for final review; submit final draft;
 
+
+THIS IS A TEST
+================================================================================
 This is a test using vim editor in git bash.
 
 to use this  feature, navigate to your team-D-automation directory and type the  following: vim 'hello Team D!.txt' ---------then press enter
