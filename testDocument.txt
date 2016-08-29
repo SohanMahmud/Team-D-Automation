@@ -1,0 +1,17 @@
+This is an example of creating a new text file through vim.
+type the following: touch (filename).txt. in this example I typed:
+touch testDocument.txt
+this created the text document.
+then I typed:
+vim testDocument.txt
+this opened up the vim editor and I was able to add this text by pressing 'i'
+on the keyboard. When I'm done typing I will press 'esc' key and then I will
+type the following:
+        :x
+again, this will save what I've typed into the text document and will exit the
+vim editor. from here I can add the changes, commit the file, and then push.
+
+git add .
+git commit -m "created a new text document"
+git push (I should no longer have to use '-u origin master' because you only
+need to use that the first time you push, so just type 'git push').
