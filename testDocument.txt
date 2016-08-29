@@ -9,9 +9,11 @@ on the keyboard. When I'm done typing I will press 'esc' key and then I will
 type the following:
         :x
 again, this will save what I've typed into the text document and will exit the
-vim editor. from here I can add the changes, commit the file, and then push.
+vim editor. from here I can add the changes, commit the file, pull and then push.
+I believe you absolutely must pull before you push after you make changes, but i could be wrong, otherwise I had an error.
 
 git add .
 git commit -m "created a new text document"
+git pull
 git push (I should no longer have to use '-u origin master' because you only
-need to use that the first time you push, so just type 'git push')
+need to use that the first time you push, so just type 'git push').
