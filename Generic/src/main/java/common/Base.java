@@ -228,6 +228,7 @@ public class Base {
    public void getLinks(String locator){
       driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
    }
+   //by Links
    public void byLinks(String locator){
       driver.findElement(By.linkText(locator)).click();
    }
