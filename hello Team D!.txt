@@ -16,3 +16,9 @@ Wednesdat 8/31/16 -- Work on modules; Screenshare meeting at night(?) to discuss
 Thursday 9/1/16 -- Work on modules; Screenshare meetings; Put everything together; put final touches; Submit draft3;
 Friday 9/2/16 -- Put finishing touches on project; Screenshare meeting for final review; submit final draft;
 
+This is a test using vim editor in git bash.
+
+to use this  feature, navigate to your team-D-automation directory and type the  following: vim 'hello Team D!.txt' ---------then press enter
+this will open up the vim editor. the txt file will now display in your git bash.
+next push the 'i' key for insert. you can now navigate through the lines with
+the arrow keys and insert any comments or additions. when finished, press escape and type: ':x' (sans single quotes) just type :x. What (:x) does just saves your changes and then exits you from vim. I'm just using this opportunity to make sure I can update this file but figured I'd include some information we can use.
