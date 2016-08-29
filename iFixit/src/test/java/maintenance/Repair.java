@@ -9,18 +9,25 @@ import org.testng.annotations.Test;
 public class Repair extends Base {
 
     @Test
+    //Test1---login: teampnt2016@gmail.com ---- password: automation
     public void AccountLogin() throws InterruptedException {
 
-    //login: teampnt2016@gmail.com ---- password: automation
-        clickByXpath(".//*[@id='home-page-top']/div/div[1]/a[2]");
-        typeByCss("#email","teampnt2016@gmail.com");
-        sleepFor(1);
-        typeByCss("#password","automation");
-        sleepFor(1);
-        clickByCss("#loginBtn");
-        sleepFor(3);
+
+            clickByXpath(".//*[@id='home-page-top']/div/div[1]/a[2]");
+            typeByCss("#email", "teampnt2016@gmail.com");
+            sleepFor(1);
+            typeByCss("#password", "automation");
+            sleepFor(1);
+            clickByCss("#loginBtn");
+            sleepFor(3);
+            
 
 
-
+    }
+    @Test
+        //test2
+    public void SearchTools() throws InterruptedException {
+        typeByCss("#searchForm","tools");
+        sleepFor(2);
     }
 }
