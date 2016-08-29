@@ -14,4 +14,4 @@ vim editor. from here I can add the changes, commit the file, and then push.
 git add .
 git commit -m "created a new text document"
 git push (I should no longer have to use '-u origin master' because you only
-need to use that the first time you push, so just type 'git push').
+need to use that the first time you push, so just type 'git push')
